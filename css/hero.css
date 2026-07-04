@@ -1,0 +1,45 @@
+.hero {
+    padding: 235px 0 180px;
+}
+.hero-container {
+    width: 1031px;
+}
+
+.hero-title {
+    font-weight: 500;
+    font-size: 80px;
+
+    /* line-height: 80px; */
+    line-height: 1;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fbfbfb;
+    margin-bottom: 24px;
+}
+
+.hero-desc {
+    margin-bottom: 48px;
+    font-weight: 300;
+    font-size: 16px;
+
+    /* line-height: 22px; */
+    line-height: 1.4;
+    text-align: center;
+    color: rgba(251, 251, 251, 0.7);
+}
+
+.hero-link {
+    display: block;
+    font-weight: 500;
+    font-size: 18px;
+
+    /* line-height: 20px; */
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+
+    background-color: #1b414b;
+    padding: 16px 40px;
+    width: 179px;
+    margin: 0 auto;
+}
