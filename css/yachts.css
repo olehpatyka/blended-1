@@ -32,6 +32,7 @@
 .yachts-item-wrap {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .yachts-item-title {
     font-weight: 500;
@@ -59,6 +60,12 @@
 .yachts-table-item {
     display: flex;
 }
+.yachts-item-text hr {
+    margin: 16px 0;
+    border: 1px solid #040306;
+    opacity: 0.1;
+}
+
 .yachts-table-category {
     font-weight: 400;
     font-size: 14px;
@@ -69,6 +76,9 @@
     text-transform: uppercase;
     color: #040306;
     opacity: 0.4;
+}
+.table-text:not(:last-child) {
+    margin-bottom: 6px;
 }
 .yachts-table-value {
     font-weight: 400;

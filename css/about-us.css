@@ -1,0 +1,42 @@
+.about-us .container {
+    display: flex;
+    margin: 150px auto;
+}
+.about-list {
+    background-color: #1b414b;
+    width: 716px;
+    border-radius: 24px;
+    padding: 90px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 44px;
+}
+.about-item {
+    width: calc((100% - 44px) / 2);
+}
+.about-item hr {
+    border-color: rgba(251, 251, 251, 0.1);
+    margin: 18px 0;
+}
+.about-number {
+    font-weight: 500;
+    font-size: 32px;
+
+    /* line-height: 32px; */
+    line-height: 1;
+    letter-spacing: -0.05em;
+    color: #fbfbfb;
+}
+.about-text {
+    font-weight: 400;
+    font-size: 13px;
+
+    /* line-height: 15px; */
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    opacity: 0.8;
+}
+.about-img {
+    margin-left: auto;
+}
