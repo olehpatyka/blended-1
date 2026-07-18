@@ -1,0 +1,37 @@
+.yachtjet {
+    margin-bottom: 150px;
+}
+.yachtjet .container {
+    position: relative;
+}
+.yachtjet-text-block {
+    display: flex;
+    background-color: #fbfbfb;
+    border-radius: 24px;
+    padding: 50px;
+    height: 830px;
+    gap: 190px;
+}
+.yachtjet-title {
+    color: #1b414b;
+    min-width: 540px;
+}
+.yachtjet-paragraph {
+    min-width: 354px;
+}
+.yachtjet-bold-text {
+    font-size: 23px;
+    color: #1b414b;
+    margin-bottom: 20px;
+}
+.yachtjet-norm-text {
+    font-size: 13px;
+    line-height: 1.15;
+    color: #040306;
+    opacity: 0.4;
+}
+.yachtjet-img {
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+}

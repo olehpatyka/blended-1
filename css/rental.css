@@ -1,0 +1,43 @@
+.rental {
+    margin-bottom: 150px;
+}
+.rental .container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.rental-form-block {
+}
+
+.rental-form-title {
+    margin-bottom: 50px;
+}
+.form {
+}
+.field-text {
+    height: 54px;
+    margin-bottom: 18px;
+}
+.field-textarea {
+    height: 116px;
+    resize: none;
+    margin-bottom: 50px;
+}
+.field-text,
+.field-textarea {
+    padding: 18px;
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 12px;
+    width: 472px;
+    background-color: transparent;
+    color: inherit;
+}
+.field-btn {
+    border-radius: 15px;
+    padding: 18px 75px;
+    width: 194px;
+    height: 56px;
+
+    background-color: #1b414b;
+}

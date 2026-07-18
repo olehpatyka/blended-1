@@ -1,15 +1,9 @@
 .yachts {
+    margin-bottom: 150px;
 }
 .yachts-title {
-    font-weight: 500;
-    font-size: 48px;
-
-    /* line-height: 48px; */
-    line-height: 1;
-    letter-spacing: -0.02em;
+    margin: 0 auto 75px;
     text-align: center;
-    color: #fbfbfb;
-    margin: 150px auto 75px;
     max-width: 714px;
 }
 .yachts-list {

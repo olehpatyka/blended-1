@@ -38,13 +38,25 @@
                 </nav>
                 <ul class="socials-list">
                     <li class="socials-item">
-                        <a href="https://www.instagram.com/" target="_blank" class="socials-link">Instagram</a>
+                        <a href="https://www.instagram.com/" target="_blank" class="socials-link">
+                            <svg class="socials-icon" width="24px" height="24px">
+                                <use href="./images/sprite.svg#instagram" />
+                            </svg>
+                        </a>
                     </li>
                     <li class="socials-item">
-                        <a href="https://www.youtube.com/" target="_blank" class="socials-link">YouTube</a>
+                        <a href="https://www.youtube.com/" target="_blank" class="socials-link">
+                            <svg class="socials-icon" width="24px" height="24px">
+                                <use href="./images/sprite.svg#youtube" />
+                            </svg>
+                        </a>
                     </li>
                     <li class="socials-item">
-                        <a href="https://www.facebook.com/" target="_blank" class="socials-link">Facebook</a>
+                        <a href="https://www.facebook.com/" target="_blank" class="socials-link">
+                            <svg class="socials-icon" width="24px" height="24px">
+                                <use href="./images/sprite.svg#facebook" />
+                            </svg>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -67,24 +79,39 @@
                     /> -->
                 </div>
             </section>
-            <section class="yachtjet-fleet">
+            <section class="yachtjet">
                 <div class="container">
-                    <h2>YachtJet fleet is here to take you on the ultimate adventure</h2>
-                    <p>
-                        From spacious decks to state-of-the-art technology, our yachts are designed to provide the
-                        perfect blend of luxury and functionality.
-                    </p>
-                    <p>
-                        Take a look at our selection below and choose the yacht that matches your needs and
-                        preferences.No matter which yacht you choose, our experienced crew will ensure that your journey
-                        is smooth and enjoyable. Book now and get ready for an unforgettable adventure on the high seas.
-                    </p>
-                    <img src="./images/sect-2.png" alt="YachtJet on the lake at night time" width="1180" height="470" />
+                    <div class="yachtjet-text-block">
+                        <h2 class="yachtjet-title title">
+                            YachtJet fleet is here to take you on the ultimate adventure
+                        </h2>
+
+                        <div class="yachtjet-paragraph">
+                            <p class="yachtjet-bold-text">
+                                From spacious decks to state-of-the-art technology, our yachts are designed to provide
+                                the perfect blend of luxury and functionality.
+                            </p>
+                            <p class="yachtjet-norm-text">
+                                Take a look at our selection below and choose the yacht that matches your needs and
+                                preferences.No matter which yacht you choose, our experienced crew will ensure that your
+                                journey is smooth and enjoyable. Book now and get ready for an unforgettable adventure
+                                on the high seas.
+                            </p>
+                        </div>
+                    </div>
+
+                    <img
+                        class="yachtjet-img"
+                        src="./images/sect-2.png"
+                        alt="YachtJet on the lake at night time"
+                        width="1180"
+                        height="470"
+                    />
                 </div>
             </section>
             <section class="yachts">
                 <div class="container">
-                    <h2 class="yachts-title">Choose your dream yacht and sail away into the sunset</h2>
+                    <h2 class="yachts-title title">Choose your dream yacht and sail away into the sunset</h2>
                     <ul class="yachts-list">
                         <li class="yachts-list-item">
                             <img
@@ -234,10 +261,32 @@
             </section>
             <section class="rental">
                 <div class="container">
-                    <img src="./images/sect-5.png" alt="achtJet on the lake at night time" width="658" height="534" />
-                    <h2>Rent a yacht now</h2>
-                    <form action="">Form</form>
-                    <button type="button">Send</button>
+                    <img
+                        class="rental-img"
+                        src="./images/sect-5.png"
+                        alt="achtJet on the lake at night time"
+                        width="658"
+                        height="534"
+                    />
+
+                    <div class="rental-form-block">
+                        <h2 class="rental-form-title title">Rent a yacht now</h2>
+                        <form class="form">
+                            <label name="name">
+                                <input class="field-text" type="text" name="name" placeholder="Full Name" />
+                            </label>
+                            <label name="email">
+                                <input class="field-text" type="email" name="email" placeholder="Email" />
+                            </label>
+                            <label name="phone">
+                                <input class="field-text" type="tel" name="phone" placeholder="Phone number" />
+                            </label>
+                            <label name="comment">
+                                <textarea class="field-textarea" name="comment" placeholder="Comment"></textarea>
+                            </label>
+                            <button class="field-btn" type="sumbit">Send</button>
+                        </form>
+                    </div>
                 </div>
             </section>
             <section class="reviews">
@@ -279,40 +328,59 @@
                 </div>
             </section>
         </main>
-        <footer>
+        <footer class="footer">
             <div class="container">
-                <a href="./index.html">yachtjet</a>
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="#about-us">About</a>
+                <div class="footer-nav-block">
+                    <a href="./index.html" class="footer-logo">yachtjet</a>
+                    <nav class="footer-nav">
+                        <ul class="footer-nav-list">
+                            <li class="nav-item">
+                                <a href="#about-us" class="footer-nav-link">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#yachts" class="footer-nav-link">Yachts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#reviews" class="footer-nav-link">Reviews</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <ul class="footer-socials-list">
+                        <li class="footer-socials-item">
+                            <a href="https://www.instagram.com/" target="_blank" class="footer-socials-link">
+                                <svg class="footer-socials-icon" width="24px" height="24px">
+                                    <use href="./images/sprite.svg#instagram" />
+                                </svg>
+                            </a>
                         </li>
-                        <li>
-                            <a href="#yachts">Yachts</a>
+                        <li class="footer-socials-item">
+                            <a href="https://www.youtube.com/" target="_blank" class="footer-socials-link">
+                                <svg class="footer-socials-icon" width="24px" height="24px">
+                                    <use href="./images/sprite.svg#youtube" />
+                                </svg>
+                            </a>
                         </li>
-                        <li>
-                            <a href="#reviews">Reviews</a>
+                        <li class="footer-socials-item">
+                            <a href="https://www.facebook.com/" target="_blank" class="footer-socials-link">
+                                <svg class="footer-socials-icon" width="24px" height="24px">
+                                    <use href="./images/sprite.svg#facebook" />
+                                </svg>
+                            </a>
                         </li>
                     </ul>
-                </nav>
-                <ul>
-                    <li>
-                        <a href="https://www.instagram.com/" target="_blank">Instagram</a>
-                    </li>
-                    <li>
-                        <a href="https://www.youtube.com/" target="_blank">YouTube</a>
-                    </li>
-                    <li>
-                        <a href="https://www.facebook.com/" target="_blank">Facebook</a>
-                    </li>
-                </ul>
-                <h2>
+                </div>
+
+                <h2 class="footer-title">
                     No matter which yacht you choose, our experienced crew will ensure that your journey is smooth and
                     enjoyable.
                 </h2>
-                <ul>
-                    <li>2023. Yacht Adventures</li>
-                    <li>Privacy Police</li>
+                <ul class="footer-copyright-list">
+                    <li class="footer-copyright-item">
+                        <a href="" target="_blank" class="footer-copyright-link">2023. Yacht Adventures</a>
+                    </li>
+                    <li class="footer-copyright-item">
+                        <a href="" target="_blank" class="footer-copyright-link">Privacy Police</a>
+                    </li>
                 </ul>
             </div>
         </footer>
